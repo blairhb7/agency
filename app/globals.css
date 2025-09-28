@@ -1,0 +1,68 @@
+
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme inline {
+  --font-main: var(--font-monoton);
+  --font-archivo: var(--font-archivo);
+  --font-plaster: var(--font-plaster);
+  --font-bebas: var(--font-bebas);
+}
+
+.bodoni-moda {
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  .bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .monoton-regular {
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .plaster-regular {
+    font-family: "Plaster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .protest-guerrilla-regular {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .sonsie-one-regular {
+    font-family: "Sonsie One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+.dm-sans {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+
+.readex-pro{
+    font-family: "Readex Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "HEXP" 0;
+  }
