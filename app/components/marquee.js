@@ -53,7 +53,7 @@ export default function RobustMarquee({
       if (ro) ro.disconnect();
       else window.removeEventListener("resize", measure);
     };
-  }, [mounted, items.join("|")]);
+  }, [groupWidth, mounted]);
 
   // duration to travel `groupWidth` pixels at `speed` px/sec
   const duration = groupWidth ? Math.max(4, groupWidth / speed) : 20;
