@@ -50,7 +50,7 @@ export default function projects() {
   ];
 
   return (
-    <section id="project" className="relative flex flex-col mt-6  py-16 md:py-24 lg:py-28 max-w-screen bg-amber-400 overflow-hidden  text-black">
+    <section id="project" className="relative flex flex-col mt-6  py-16 md:py-24 lg:py-28 max-w-screen 2xl:w-[2000px] bg-amber-400 overflow-hidden  text-black">
       {/* Text Section */}
       <div className="text-center z-10 relative">
         <div className="mx-auto max-w-3xl w-full ">

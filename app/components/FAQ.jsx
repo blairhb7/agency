@@ -6,7 +6,7 @@ import { Icon } from "@iconify/react"; // using iconify for the chevron
 
 const faqs = [
   {
-    question: "What services does Astrolabs offer?",
+    question: "What services does AstroShift offer?",
     answer:
       "We offer web design, mobile-friendly applications, e-commerce solutions, branding, SEO, and custom development.",
   },

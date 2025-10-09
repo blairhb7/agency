@@ -5,6 +5,7 @@ import { Icon } from "@iconify/react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
+import CalendlyEmbed from "./calendly";
 
 export default function MobileHeader() {
   const [isMobile, setIsMobile] = useState(false);
@@ -169,15 +170,18 @@ export default function MobileHeader() {
               </form>
 
               {/* Phone Section */}
-              <div className="px-8 py-6 border-t bg-gray-50 flex items-center space-x-3">
+              <div className="px-8 py-6 border-t  bg-gray-50 flex items-center space-x-3">
+                <h2 className="font-bold uppercase pr-14 text-3xl">REady to start?<br/> give us a call.</h2>
                 <Icon
                   icon="lucide:phone"
-                  className="w-6 h-6 text-amber-400"
+                  className="w-10 h-10 text-amber-400"
                 />
-                <a href="tel:+19256957466" className="text-lg font-semibold text-gray-800">
+                <a href="tel:+19256957466" className="text-3xl font-semibold text-gray-800">
                   +1 ‪(925) 695-7466‬
                 </a>
+                
               </div>
+              
             </motion.div>
           </>
         )}
@@ -199,7 +203,7 @@ export default function MobileHeader() {
               <Icon icon="lucide:zap" className="w-6 h-6 text-white" />
             </div>
             <span className="text-2xl font-heading font-plaster font-extrabold uppercase font-monoton  text-amber-400">
-              AstroLab
+              AstroShift
             </span>
           </div>
         </Link>

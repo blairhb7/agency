@@ -13,6 +13,7 @@ import Contact from "./components/contact";
 import Image from "next/image";
 import Nav from "./components/nav"
 import Link from "next/link";
+import CalendlyEmbed from "./components/calendly";
 // General animation variants
 const fadeUp = {
   hidden: { opacity: 0, y: 50 },
@@ -218,7 +219,7 @@ export default function MinimalPortfolioWebsite() {
 
       {/* Hero Section */}
       <motion.section
-        className="py-32 md:py-48 bg-amber-400  overflow-hidden "
+        className="py-32 md:py-48 bg-amber-400 overflow-hidden "
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
@@ -310,7 +311,7 @@ export default function MinimalPortfolioWebsite() {
                 <div className="w-10 h-10 bg-black rounded-full flex items-center justify-center">
                   <Icon icon="lucide:zap" className="w-6 h-6 text-white" />
                 </div>
-                <span className="text-2xl font-plaster font-heading uppercase font-bold text-black">AstroLab</span>
+                <span className="text-2xl font-plaster font-heading uppercase font-bold text-black">AstroShift</span>
               </div>
               <p className="text-white text-lg leading-relaxed">Creating digital experiences that inspire and convert.</p>
             </div>
@@ -345,11 +346,13 @@ export default function MinimalPortfolioWebsite() {
                   <Icon icon="lucide:instagram" className="w-5 h-5" />
                 </Button>
               </div>
+           
             </div>
+           
           </div>
           <Separator className="my-12 bg-gray-200" />
           <div className="flex flex-col md:flex-row justify-between items-center text-white text-lg">
-            <div>© 2024 DesignCraft. All rights reserved.</div>
+            <div>© 2024 AstroShift. All rights reserved.</div>
             <div className="flex space-x-8 mt-6 md:mt-0">
               <a href="#" className="hover:text-black transition-colors">Privacy Policy</a>
               <a href="#" className="hover:text-black transition-colors">Terms of Service</a>
